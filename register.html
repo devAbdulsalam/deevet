@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body>
+		<div class="md:flex md:h-screen">
+			<div
+				class="w-4/12 hidden md:flex flex-col relative h-full overflow-y-scroll"
+			>
+				<div class="p-4">
+					<img src="/logo_light.png" alt="logo" />
+				</div>
+				<div class="p-3">
+					<h1 class="text-2xl text-white">
+						Stay ahead of the game <br />
+						with our seamless wallet online platform!
+					</h1>
+				</div>
+				<div class="text-center absolute bottom-2">
+					<a class="text-white" href="/">© DeevBet 2023</a>
+				</div>
+			</div>
+			<div class="md:hidden flex-col relative h-full overflow-hidden">
+				<div class="p-4 flex justify-center">
+					<img class="h-18 w-36" src="/logo_light.png" alt="logo" />
+				</div>
+			</div>
+			<div class="bg-white w-full md:w-8/12 h-full md:overflow-y-scroll md:p-4">
+				<div class="p-6">
+					<h1 class="text-2xl font-semibold">Create account</h1>
+				</div>
+				<form class="w-full pt-2 px-4">
+					<div class="md:flex justify-center gap-5 px-2">
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								for="firstname"
+								>First Name</label
+							>
+							<input
+								id="firstname"
+								type="text"
+								required
+								placeholder="Please type in your First Name"
+								class="form-control block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+							/>
+						</div>
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								for="Sname"
+								for="Sur Name"
+								>Surname</label
+							>
+							<input
+								id="Sname"
+								type="text"
+								required
+								placeholder="Please type in your surName"
+								class="form-control block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+							/>
+						</div>
+					</div>
+					<div class="md:flex justify-center gap-5 px-2">
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								for="email"
+								for="First Name"
+								>Email</label
+							>
+							<input
+								id="email"
+								type="text"
+								placeholder="Please type in your Email"
+								class="form-control block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+							/>
+						</div>
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								for="gender"
+								for="gender"
+								>Gender</label
+							>
+							<select
+								class="form-select appearance-none block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+								name="gender"
+								id="gender"
+								required
+							>
+								<option value="" selected="selected">- Select -</option>
+								<option value="male">Male</option>
+								<option value="female">Female</option>
+							</select>
+						</div>
+					</div>
+					<div class="md:flex justify-center gap-5 px-2">
+						<div class="mb-3 w-full">
+							<label
+								for="phone"
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								>Phone Number</label
+							>
+							<input
+								id="phone"
+								type="number"
+								required
+								placeholder="Please type in your Phone Number"
+								type="number"
+								class="form-control block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+							/>
+						</div>
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								for="alternate-phone"
+								>Alternate Phone</label
+							>
+							<input
+								type="number"
+								id="alternate-phone"
+								placeholder="Please type in your Alternative Phone Number"
+								class="form-control block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+							/>
+						</div>
+					</div>
+					<div class="md:flex justify-center gap-5 px-2">
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								for="academic"
+								class=""
+								>Highest Academic Qualification</label
+							>
+							<select
+								class="form-select appearance-none block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+								name="academic"
+								id="academic"
+							>
+								<option value="" selected="selected">- Select -</option>
+								<option value="Basic">Basic Education /No school</option>
+								<option value="primary">Primary /School certificate</option>
+								<option value="HIC">Higher Institution Certificate</option>
+								<option value="SSCE">SSCE</option>
+								<option value="OND">OND</option>
+								<option value="HND">HND</option>
+								<option value="Bsc">Degree</option>
+								<option value="PHD">PHD</option>
+								<option value="others">Others</option>
+							</select>
+						</div>
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								for="dob"
+								id="dob"
+								class=""
+								>Date of birth</label
+							>
+							<input
+								class="form-control block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+								type="date"
+								name="dob"
+								id="dob"
+								required
+							/>
+						</div>
+					</div>
+					<div class="md:flex justify-center gap-5 px-2">
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								id="shopAddress"
+								for="shopAddress"
+								>Shop Address</label
+							>
+							<input
+								id="shopAddress"
+								type="text"
+								required
+								placeholder="Please type in your Shop Address"
+								class="form-control block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+							/>
+						</div>
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								id="busstop"
+								for="Password"
+								>Nearest Bus stop</label
+							>
+							<input
+								id="busstop"
+								type="text"
+								required
+								placeholder="Please type in your Nearest Busstop"
+								class="form-control block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+							/>
+						</div>
+					</div>
+					<div class="md:flex justify-center gap-5 px-2">
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								>State/Province</label
+							>
+							<select
+								class="form-select appearance-none block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+								onchange="toggleLGA(this);"
+								name="state"
+								id="state"
+								class="form-control"
+							>
+								<option value="" selected="selected">Choose State</option>
+								<option value="Abia">Abia</option>
+								<option value="Adamawa">Adamawa</option>
+								<option value="AkwaIbom">AkwaIbom</option>
+								<option value="Anambra">Anambra</option>
+								<option value="Bauchi">Bauchi</option>
+								<option value="Bayelsa">Bayelsa</option>
+								<option value="Benue">Benue</option>
+								<option value="Borno">Borno</option>
+								<option value="Cross River">Cross River</option>
+								<option value="Delta">Delta</option>
+								<option value="Ebonyi">Ebonyi</option>
+								<option value="Edo">Edo</option>
+								<option value="Ekiti">Ekiti</option>
+								<option value="Enugu">Enugu</option>
+								<option value="FCT">FCT</option>
+								<option value="Gombe">Gombe</option>
+								<option value="Imo">Imo</option>
+								<option value="Jigawa">Jigawa</option>
+								<option value="Kaduna">Kaduna</option>
+								<option value="Kano">Kano</option>
+								<option value="Katsina">Katsina</option>
+								<option value="Kebbi">Kebbi</option>
+								<option value="Kogi">Kogi</option>
+								<option value="Kwara">Kwara</option>
+								<option value="Lagos">Lagos</option>
+								<option value="Nasarawa">Nasarawa</option>
+								<option value="Niger">Niger</option>
+								<option value="Ogun">Ogun</option>
+								<option value="Ondo">Ondo</option>
+								<option value="Osun">Osun</option>
+								<option value="Oyo">Oyo</option>
+								<option value="Plateau">Plateau</option>
+								<option value="Rivers">Rivers</option>
+								<option value="Sokoto">Sokoto</option>
+								<option value="Taraba">Taraba</option>
+								<option value="Yobe">Yobe</option>
+								<option value="Zamfara">Zamafara</option>
+							</select>
+						</div>
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								>LGA/Local Government</label
+							>
+							<select
+								class="form-select appearance-none block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+								name="lga"
+								id="lga"
+								class="form-control select-lga"
+								required
+							>
+								<option value="" selected="selected">Choose LGA</option>
+							</select>
+						</div>
+					</div>
+					<div class="md:flex justify-center gap-5 px-2">
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								>Commission Type</label
+							>
+							<select
+								class="form-select appearance-none block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+								name=""
+								id=""
+								required
+								placeholder="Select your commission"
+							>
+								<option value="" selected="selected">- Select -</option>
+								<option value="1">7% on sales</option>
+								<option value="2">Upfront Commission</option>
+							</select>
+						</div>
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								>How did you hear about us</label
+							>
+							<input
+								type="text"
+								placeholder="Please type in your How did you hear about us"
+								class="form-control block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+							/>
+						</div>
+					</div>
+					<div class="md:flex justify-center gap-5 px-2">
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								for="passport"
+								>Your Passport Photograph</label
+							>
+							<input
+								class="form-control block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+								type="file"
+								id="passport"
+								required
+								placeholder="Please type in your How did you hear about us"
+							/>
+						</div>
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								for="IDcard"
+								>Upload your Valid ID Card</label
+							>
+							<input
+								class="form-control block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+								type="file"
+								id="IDcard"
+								placeholder="Please type in your How did you hear about us"
+							/>
+						</div>
+					</div>
+
+					<div class="md:flex justify-center gap-5 px-2">
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								for="shop-outside"
+								>Shop picture taken from outside</label
+							>
+							<input
+								class="form-control block w-full px-3 py-1 md:py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+								type="file"
+								id="shop-outside"
+								placeholder="Please type in your How did you hear about us"
+							/>
+						</div>
+						<div class="mb-3 w-full">
+							<label
+								class="form-label inline-block mb-1 text-gray-800 font-semibold"
+								for="shop-inside"
+								>Shop picture taken inside</label
+							>
+							<input
+								class="form-control block w-full px-3 py-1 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+								type="file"
+								id="shop-inside"
+								placeholder="Please type in your How did you hear about us"
+							/>
+						</div>
+					</div>
+					<div class="form-check px-4 py-2">
+						<input
+							name="terms"
+							id="terms"
+							class="form-check-input appearance-none rounded-full h-4 w-4 border-2 border-green-700 bg-white checked:bg-green-800 checked:border-green-700 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+							type="checkbox"
+						/><a class="text-blue-500" href="/"
+							>I agree with deevbet Online Rules and shop rules</a
+						>
+					</div>
+					<div class="w-full p-2 pt-4 flex justify-center">
+						<button
+							type="button"
+							class="inline-block px-6 py-2.5 w-full md:max-w-[400px] text-white font-medium text-md leading-tight uppercase rounded shadow-lg hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+						>
+							Create Account
+						</button>
+					</div>
+					<p class="text-center mt-2">
+						Already have an account?<a
+							class="text-blue-500"
+							href="./login.html"
+						>
+							Login</a
+						>
+					</p>
+				</form>
+				<div
+					class="md:hidden text-center pt-4 text-green-800 hover:text-gray-700"
+				>
+					<a href="/">© DeevBet 2023</a>
+				</div>
+			</div>
+		</div>
+
+		<style>
+			body {
+				background-image: webkit-linear-gradient(
+					315deg,
+					rgb(2, 123, 91) 0%,
+					rgb(2, 123, 91) 70%,
+					rgb(22, 30, 75) 100%
+				);
+				background: linear-gradient(
+					to bottom,
+					#027b5b 70%,
+					#027b5b 100%
+				) !important;
+			}
+			button {
+				background-color: #027b5b !important;
+				color: #fff;
+			}
+			button:hover {
+				color: #fff;
+				background-color: #edcd2a !important;
+			}
+			.debug {
+				border: 1px red solid;
+			}
+		</style>
+		<script src="lga.js"></script>
+	</body>
+</html>

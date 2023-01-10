@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body class="bg-gray-50">
+		<div class="w-full">
+			<div class="">
+				<h1 class="text-gray-800 text-2xl">Wallet Transaction</h1>
+			</div>
+			<div class="w-full flex gap-5 px-4">
+				<div class="w-full bg-white shadow-sm rounded-md p-4">
+					<div class="flex w-full justify-between">
+						<div>
+							<p class="font-bold text-lg">All transactions</p>
+						</div>
+						<p>Profile ID: <span class="font-bold">1376</span></p>
+					</div>
+					<div class="flex w-full justify-between">
+						<p>Wallet balance</p>
+						<p class="font-bold text-green-400 text-lg">
+							1,234,899.00<span class="font-semi-bold">NGN</span>
+						</p>
+					</div>
+				</div>
+				<div class="w-full bg-white shadow-sm rounded-md p-4">
+					<div class="pb-6">
+						<div>
+							<p class="font-bold text-lg">
+								Wallet Statement : <span>{date}</span>
+							</p>
+						</div>
+					</div>
+					<div class="flex w-full justify-between">
+						<p>Spending</p>
+						<p class="text-red-400 font-bold">-</p>
+					</div>
+					<div class="flex w-full justify-between">
+						<p>Funds received</p>
+						<p class="text-green-400 font-bold">+</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
